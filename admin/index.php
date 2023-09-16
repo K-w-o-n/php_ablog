@@ -116,14 +116,3 @@ if(empty($_SESSION['user_id']) && empty($_SESSION['logged_in'])) {
     </div>
   </div>
  <?php include('footer.html') ?>
-
-
- //pageno = 1;
- //$numOfRecs = 3;
- //$stmt = $pdo->prepare("SELECT * FROM posts ORDER BY id DESC");
- //$stmt->execute();
- //$rawresult = $stmt->fetchAll();
- //total_pages = ceil(count($rawresult) / $numOfRecs);
- //$offSet = ($pageno-1)*$numOfRecs
-
- //pagingation first href= ?pageno=1;
