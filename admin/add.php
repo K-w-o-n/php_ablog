@@ -57,7 +57,7 @@ if($_POST) {
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btn btn-success" value="SUBMIT">
-                            <a href="index.php" class="btn btn-warning" type="button">Back</a>
+                            <a href="index.php?id=<?php echo $result['id]; ?>" class="btn btn-warning" type="button">Back</a>
                         </div>
                     </form>
                 </div>
